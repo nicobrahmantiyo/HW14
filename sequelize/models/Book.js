@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../index');
 
-const books = sequelize.define('books', {
+const Book = sequelize.define('Books', {
   tytle: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -26,10 +26,10 @@ const books = sequelize.define('books', {
     type: DataTypes.DATE,
     allowNull: false,
   },
-  updateAt: {
+  updatedAt: {
     type: DataTypes.DATE,
     allowNull: false,
   },
 });
 
-module.exports = books;
+module.exports = Book;

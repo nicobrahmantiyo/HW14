@@ -22,7 +22,7 @@ module.exports = {
       year: Sequelize.INTEGER,
       pages: Sequelize.INTEGER,
       createdAt: Sequelize.DATE,
-      updateAt: Sequelize.DATE,
+      updatedAt: Sequelize.DATE,
     });
   },
 
@@ -33,5 +33,6 @@ module.exports = {
      * Example:
      * await queryInterface.dropTable('users');
      */
+    await queryInterface.dropTable('Books');
   },
 };

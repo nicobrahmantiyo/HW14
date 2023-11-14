@@ -22,7 +22,7 @@ module.exports = {
           year: 2022,
           pages: 200,
           createdAt: new Date(),
-          updateAt: new Date(),
+          updatedAt: new Date(),
         },
         {
           tytle: 'Indiana Jones',
@@ -31,7 +31,7 @@ module.exports = {
           year: 2023,
           pages: 200,
           createdAt: new Date(),
-          updateAt: new Date(),
+          updatedAt: new Date(),
         },
       ],
       {}
